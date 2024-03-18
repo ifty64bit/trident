@@ -1,4 +1,16 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+//https://images.pexels.com/photos/
+const nextConfig = {
+    images: {
+        remotePatterns: [
+            {
+                hostname: "images.pexels.com",
+                port: "",
+                protocol: "https",
+                pathname: "/photos/**",
+            },
+        ],
+    },
+};
 
 export default nextConfig;
