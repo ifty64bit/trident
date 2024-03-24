@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Bangla Memes Hub",
+    title: "Bangla Meme Stash",
     description: "A hub for Bangla memes",
 };
 
